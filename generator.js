@@ -234,10 +234,12 @@ function changeTopic() {
     topic = 1;
     document.getElementById('topic_all').checked = true;
     disable_topic = true;
-    swearWords = ['ROXORY', 'AROGANTNÍ HAJZLI', 'KONŠTANTA', 'SKROMNE', 'HRDÍ SLAVIANI', 'KOKOTI', 'PUTINA NA NICH', 
+    badGuysSentences = adjustGysSentences(parseTextFile("configs/" + keyword + "_hlasky_zli_chlapci.txt"));
+    badGuys = parseTextFile("configs/" + keyword + "_zli_chlapci.txt");
+    swearWords = ['JANEVIEMUŠ', 'IDE KARTA', 'KONŠTANTA', 'SKROMNE', 'HRDÍ SLAVIANI', 'KOKOTI', 'PUTINA NA TO', 
                   'CUKRÍČEK', 'SVETIELKA', 'TRAGÉDI', 'PIČI', 'ZOMRI'];
-    swearWordsLvl2 = ['KRV, MOZGY, ŠŤANKY, SRAČKY', 'FAŠISTICKÉ SVINE', 'HEHEHÉHÉÉÉ', 'KOKÓÓÓTI', 'UJEBEM BOJLER AJ S HMOŽDINAMI', 
-                     'PIIIČAA', 'GENOCÍDA NÁRODA'];
+    swearWordsLvl2 = ['VŠETCI ZOMRITE', 'HMOŽDINY NA SATURN', 'ŽALOBA NA TO', 'KOKÓÓÓTI', 'TRAGICKÍ KOKOTI', 
+                     'PIIIČAA', 'ZAJEBEM PLYN'];
   }
   else {
     var keyword = "slovien";
@@ -268,7 +270,7 @@ function changeTopic() {
         elements[i].readOnly = disable_topic;
     }
     other = parseTextFile("configs/" + keyword + "_hlasky.txt")
-    if (role != 3) {
+    if (role == 1 || role == 2) {
       other.concat(parseTextFile("configs/" + keyword + "_romovia.txt"))
       .concat(parseTextFile("configs/" + keyword + "_migranti.txt"))
       .concat(parseTextFile("configs/" + keyword + "_lgbt.txt"))
@@ -285,6 +287,9 @@ function changeTitle() {
   }
   else if (role == 3) {
     title = "Rudolf Vasky - boilerlover";
+  }
+  else if (role == 4) {
+    title = "Nahodný Admin Zomri";
   }
   document.getElementById("title").innerHTML = title;
 }
