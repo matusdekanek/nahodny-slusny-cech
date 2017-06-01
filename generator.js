@@ -161,7 +161,7 @@ function changeBackground() {
   else if (role == 4) {  // zomri
     var colors = ["(222,227,237)","( 206,213,229)","(189,199,220)","(173,185,212)","(157,172,203)","(140,158,194)","(124,144,186)",
                   "(108,130,177)","(91,116,169)","(75,102,160)","(59,89,152)"];
-    var images = ["https://scontent.xx.fbcdn.net/v/t31.0-8/12474087_1146029935408980_6293914694529662613_o.jpg?oh=180295a0d2d32cfd80486a813b09ede0&oe=59B5FDCD", 
+    var images = ["https://scontent.xx.fbcdn.net/v/t1.0-9/12341294_1114944488517525_6614484182791711045_n.jpg?oh=520171a82baee62b3c153cd173d46854&oe=59AE028B", 
                   "http://www1.birdz.sk/uc/pl/7/1/718dd9f92db5462d92eb98e67c4e882c.jpg",
                   "https://m.smedata.sk/api-media/media/image/fici/3/29/29473/29473_625x.png",
                   "http://zenskyweb.sk/sites/default/files/old/articles/16299/original.jpg", 
