@@ -149,7 +149,7 @@ function changeBackground() {
                   "http://i61.tinypic.com/2epivxy.jpg"];
   }
   else if (role == 3) {  // vasky
-    var colors = ["(255,36,28)","(229,32,25)","(204,28,22)","(178,25,19)","( 153,21,16)","(127,18,14)","(102,14,11)",
+    var colors = ["(255,36,28)","(229,32,25)","(204,28,22)","(178,25,19)","(153,21,16)","(127,18,14)","(102,14,11)",
                   "(76,10,8)","(51,7,5)","(25,3,2)","(0,0,0)"];
     var images = ["https://i.ytimg.com/vi/fxqs4ZnQA6M/maxresdefault.jpg", 
                   "http://www.upnito.sk/0/jd2kn7gf6gyeqzrj4a5yfzyyjmxnsdwv.jpg",
@@ -159,11 +159,11 @@ function changeBackground() {
                   "https://storage.pozary.cz/article/5/8/58cd267e1f199/t2q4qlmxad.1200.jpg"];
   }
   else if (role == 4) {  // zomri
-    var colors = ["(222,227,237)","(229,32,25)","(204,28,22)","(178,25,19)","( 153,21,16)","(127,18,14)","(102,14,11)",
-                  "(76,10,8)","(51,7,5)","(25,3,2)","(59,89,152)"];
-    var images = ["http://www.gorila.sk/i/author_profiles/526-large.jpg", 
-                  "https://scontent.xx.fbcdn.net/v/t1.0-9/12803117_1172952299383410_7652369304709667554_n.jpg?oh=d551763d12a5ea8d5ab6554d9207535a&oe=59A6585B",
+    var colors = ["(222,227,237)","( 206,213,229)","(189,199,220)","(173,185,212)","(157,172,203)","(140,158,194)","(124,144,186)",
+                  "(108,130,177)","(91,116,169)","(75,102,160)","(59,89,152)"];
+    var images = ["https://scontent.xx.fbcdn.net/v/t31.0-8/12474087_1146029935408980_6293914694529662613_o.jpg?oh=180295a0d2d32cfd80486a813b09ede0&oe=59B5FDCD", 
                   "http://www1.birdz.sk/uc/pl/7/1/718dd9f92db5462d92eb98e67c4e882c.jpg",
+                  "https://m.smedata.sk/api-media/media/image/fici/3/29/29473/29473_625x.png",
                   "http://zenskyweb.sk/sites/default/files/old/articles/16299/original.jpg", 
                   "https://lh4.googleusercontent.com/-LA3Cpva_5CA/AAAAAAAAAAI/AAAAAAAAAcA/SUGaZDMuge4/photo.jpg",
                   "https://m.smedata.sk/api-media/media/image/fici/8/13/1378668/1378668_1200x.png"];
