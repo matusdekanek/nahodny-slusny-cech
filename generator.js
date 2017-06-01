@@ -159,14 +159,14 @@ function changeBackground() {
                   "https://storage.pozary.cz/article/5/8/58cd267e1f199/t2q4qlmxad.1200.jpg"];
   }
   else if (role == 4) {  // zomri
-    var colors = ["(255,255,255)","(229,32,25)","(204,28,22)","(178,25,19)","( 153,21,16)","(127,18,14)","(102,14,11)",
+    var colors = ["(222,227,237)","(229,32,25)","(204,28,22)","(178,25,19)","( 153,21,16)","(127,18,14)","(102,14,11)",
                   "(76,10,8)","(51,7,5)","(25,3,2)","(59,89,152)"];
-    var images = ["https://i.ytimg.com/vi/fxqs4ZnQA6M/maxresdefault.jpg", 
-                  "http://www.upnito.sk/0/jd2kn7gf6gyeqzrj4a5yfzyyjmxnsdwv.jpg",
-                  "https://i.ytimg.com/vi/3xKcvCfRaOw/hqdefault.jpg",
-                  "https://imageth.uloz.to/1/4/c/14ce436dee30c05b9fcc7d8483097d31.640x360.jpg", 
-                  "http://img.topky.sk/900px/1799003.jpg/incident-facka-Peter-Osusky-Rudolf-Vasky.jpg",
-                  "https://storage.pozary.cz/article/5/8/58cd267e1f199/t2q4qlmxad.1200.jpg"];
+    var images = ["http://www.gorila.sk/i/author_profiles/526-large.jpg", 
+                  "https://scontent.xx.fbcdn.net/v/t1.0-9/12803117_1172952299383410_7652369304709667554_n.jpg?oh=d551763d12a5ea8d5ab6554d9207535a&oe=59A6585B",
+                  "http://www1.birdz.sk/uc/pl/7/1/718dd9f92db5462d92eb98e67c4e882c.jpg",
+                  "http://zenskyweb.sk/sites/default/files/old/articles/16299/original.jpg", 
+                  "https://lh4.googleusercontent.com/-LA3Cpva_5CA/AAAAAAAAAAI/AAAAAAAAAcA/SUGaZDMuge4/photo.jpg",
+                  "https://m.smedata.sk/api-media/media/image/fici/8/13/1378668/1378668_1200x.png"];
   }
   else {  // slovien
     var colors = ["(53,130,0)","(78,130,0)","(102,130,0)","(128,129,0)","(129,107,0)","(129,82,0)","(144,77,0)",
