@@ -149,8 +149,18 @@ function changeBackground() {
                   "http://i61.tinypic.com/2epivxy.jpg"];
   }
   else if (role == 3) {  // vasky
-    var colors = ["(255,36,28","(229,32,25)","(204,28,22)","(178,25,19)","( 153,21,16)","(127,18,14)","(102,14,11)",
+    var colors = ["(255,36,28)","(229,32,25)","(204,28,22)","(178,25,19)","( 153,21,16)","(127,18,14)","(102,14,11)",
                   "(76,10,8)","(51,7,5)","(25,3,2)","(0,0,0)"];
+    var images = ["https://i.ytimg.com/vi/fxqs4ZnQA6M/maxresdefault.jpg", 
+                  "http://www.upnito.sk/0/jd2kn7gf6gyeqzrj4a5yfzyyjmxnsdwv.jpg",
+                  "https://i.ytimg.com/vi/3xKcvCfRaOw/hqdefault.jpg",
+                  "https://imageth.uloz.to/1/4/c/14ce436dee30c05b9fcc7d8483097d31.640x360.jpg", 
+                  "http://img.topky.sk/900px/1799003.jpg/incident-facka-Peter-Osusky-Rudolf-Vasky.jpg",
+                  "https://storage.pozary.cz/article/5/8/58cd267e1f199/t2q4qlmxad.1200.jpg"];
+  }
+  else if (role == 4) {  // zomri
+    var colors = ["(255,255,255)","(229,32,25)","(204,28,22)","(178,25,19)","( 153,21,16)","(127,18,14)","(102,14,11)",
+                  "(76,10,8)","(51,7,5)","(25,3,2)","(59,89,152)"];
     var images = ["https://i.ytimg.com/vi/fxqs4ZnQA6M/maxresdefault.jpg", 
                   "http://www.upnito.sk/0/jd2kn7gf6gyeqzrj4a5yfzyyjmxnsdwv.jpg",
                   "https://i.ytimg.com/vi/3xKcvCfRaOw/hqdefault.jpg",
@@ -216,6 +226,16 @@ function changeTopic() {
     disable_topic = true;
     swearWords = ['ROXORY', 'AROGANTNÍ HAJZLI', 'POJDU DOLE', 'BOJLER', 'HAJZLI', 'KOKOTI', 'HEHEHÉ', 
                   'JEBEM BOJLER', 'FAŠISTI', 'KURVY', 'PIČA', 'SPIATOČNÍCI'];
+    swearWordsLvl2 = ['KRV, MOZGY, ŠŤANKY, SRAČKY', 'FAŠISTICKÉ SVINE', 'HEHEHÉHÉÉÉ', 'KOKÓÓÓTI', 'UJEBEM BOJLER AJ S HMOŽDINAMI', 
+                     'PIIIČAA', 'GENOCÍDA NÁRODA'];
+  }
+  else if (role == 4) {
+    var keyword = "zomri";
+    topic = 1;
+    document.getElementById('topic_all').checked = true;
+    disable_topic = true;
+    swearWords = ['ROXORY', 'AROGANTNÍ HAJZLI', 'KONŠTANTA', 'SKROMNE', 'HRDÍ SLAVIANI', 'KOKOTI', 'PUTINA NA NICH', 
+                  'CUKRÍČEK', 'SVETIELKA', 'TRAGÉDI', 'PIČI', 'ZOMRI'];
     swearWordsLvl2 = ['KRV, MOZGY, ŠŤANKY, SRAČKY', 'FAŠISTICKÉ SVINE', 'HEHEHÉHÉÉÉ', 'KOKÓÓÓTI', 'UJEBEM BOJLER AJ S HMOŽDINAMI', 
                      'PIIIČAA', 'GENOCÍDA NÁRODA'];
   }
