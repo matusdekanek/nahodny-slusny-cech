@@ -241,6 +241,19 @@ function changeTopic() {
     swearWordsLvl2 = ['VŠETCI ZOMRITE', 'HMOŽDINY NA SATURN', 'ŽALOBA NA TO', 'KOKÓÓÓTI', 'TRAGICKÍ KOKOTI', 
                      'PIIIČAA', 'ZAJEBEM PLYN'];
   }
+  else if (role == 5) {
+    var keyword = "melisko";
+    topic = 1;
+    document.getElementById('topic_all').checked = true;
+    disable_topic = true;
+    badGuysSentences = adjustGysSentences(parseTextFile("configs/" + keyword + "_hlasky_zli_chlapci.txt"));
+    badGuys = parseTextFile("configs/" + keyword + "_zli_chlapci.txt");
+    swearWords = ['TEN KOKOT KOKTAVÝ', 'KOKOT STARÝ', 'Primitívi vyjebaní čo vyšli z tretej-prešli do piatej', 'Všivári všivaví', 'DEBILI', 'Blázni', 'Cigáni', 
+                  'Múmia vyjebaná', 'Zfetovaná džugara', 'MARHA', 'Piča materina', 'TY KOKOT', 'ty kurva tuberácka'];
+    swearWordsLvl2 = ['Pažravá piča', 'Mária kurva', 'Žraloci vyjebaní', 'Materina kurva', 'Herodes vyjebaný', 'Bzdocha', 
+						'Tí kokoti čo tam chodia, čo rozjebávajú tie dvere, hintí vyjebanci tam čo chodia!', 'HAJZLI', 'KOKOTINY',
+                     'JEBEM', 'ZAJEBEM PLYN'];
+  }
   else {
     var keyword = "slovien";
     goodGuysSentences = adjustGysSentences(parseTextFile("configs/" + keyword + "_hlasky_dobri_chlapci.txt"));
@@ -290,6 +303,9 @@ function changeTitle() {
   }
   else if (role == 4) {
     title = "Nahodný Admin Zomri";
+  }
+  else if (role == 5) {
+    title = "Laci Melisko";
   }
   document.getElementById("title").innerHTML = title;
 }
